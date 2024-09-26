@@ -1,0 +1,75 @@
+---
+// Feature Cards grid Section
+// ------------
+// Description: A grid of cards with feature information in a 4 column layout.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import Card from '../../ui/cards/FeatureCard.astro'
+
+// Content
+// - Cards
+import feature01 from '../../../assets/cards/feature-01.svg'
+import feature02 from '../../../assets/cards/feature-02.svg'
+import feature03 from '../../../assets/cards/feature-03.svg'
+import feature04 from '../../../assets/cards/feature-04.svg'
+import feature05 from '../../../assets/cards/feature-05.svg'
+---
+
+<Section id="features">
+	<Row>
+		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+			<h2 class="text-pretty"><strong>Predict and resolve</strong> asset issues before they impact productivity</h2>
+			<p class="pb-0 text-xl">
+				Predictive analytics are a high priority for management who want to assess their enterprise asset's 
+				performance, health, and security. 				
+			</p>
+			<p>
+				AssetPulse gives you valuable insights from different datapoints to keep assets running optimally and securely
+				 in multi-vendor environments – all from a single dashboard.
+			</p>
+		</Col>
+	</Row>
+	<Row>
+		<Col span="4">
+			<Card
+				title="All your assets in one place"
+				subtitle="Centrally manage all assets & their hierarchies across multiple sites or multiple locations within a site."
+				image={feature01}
+				link="/features"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Track and optimize asset lifecycle"
+				subtitle="Right from asset aquisition to its end of life, track every stage of every asset to optimize its value."
+				image={feature02}
+				link="/features"
+			/>
+			<Card
+				title="Manage investment plans"
+				subtitle="Track capital expenditures and operational expenditures for all assets. Plan budgets and make informed replace vs maintain decisions. "
+				image={feature04}
+				link="/features"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Automate maintenance"
+				subtitle="Create maintenance plans and automate workorder creation based on time based & meter based frequencies."
+				image={feature03}
+				link="/features"
+			/>
+			<Card
+				title="Insights & analytics"
+				subtitle="Get insights at site, location or even individual asset level. Make informed decisions."
+				image={feature05}
+				link="/features"
+			/>
+		</Col>
+	</Row>
+</Section>
