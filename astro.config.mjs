@@ -12,7 +12,7 @@ export default defineConfig({
       noExternal: ['@fontsource-variable/inter', '@fontsource-variable/outfit']
     }
   },
-  site: "https://astro-theme-one.vercel.app/",
+  site: "https://assetick.github.io/",
   integrations: [
     tailwind(),
     icon(),
