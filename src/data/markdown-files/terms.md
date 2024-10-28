@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Welcome to AssetPulse! By using our services, you agree to be bound by these terms and conditions. Please read them carefully.
+Welcome to Assetick! By using our services, you agree to be bound by these terms and conditions. Please read them carefully.
 
 ## Acceptance of Terms
 
-By accessing or using AssetPulse, you agree to comply with and be bound by these Terms of Service and our Privacy Policy. If you do not agree with these terms, you should not use our services.
+By accessing or using Assetick, you agree to comply with and be bound by these Terms of Service and our Privacy Policy. If you do not agree with these terms, you should not use our services.
 
 ## Changes to Terms
 
@@ -16,7 +16,7 @@ We reserve the right to modify these terms at any time. We will notify you of an
 
 ### Registration
 
-To use certain features of AssetPulse, you may need to create an account. You agree to provide accurate and complete information when creating your account and to keep this information up-to-date.
+To use certain features of Assetick, you may need to create an account. You agree to provide accurate and complete information when creating your account and to keep this information up-to-date.
 
 ### Account Security
 
@@ -30,7 +30,7 @@ We grant you a limited, non-exclusive, non-transferable, and revocable license t
 
 ### Prohibited Activities
 
-You agree not to use AssetPulse for any unlawful or prohibited activities, including but not limited to:
+You agree not to use Assetick for any unlawful or prohibited activities, including but not limited to:
 
 - Violating any applicable laws or regulations
 - Infringing on the intellectual property rights of others
@@ -41,17 +41,17 @@ You agree not to use AssetPulse for any unlawful or prohibited activities, inclu
 
 ### Your Content
 
-You retain ownership of any content you upload to AssetPulse. By uploading content, you grant us a worldwide, royalty-free, and non-exclusive license to use, reproduce, and display your content for the purpose of operating and improving the service.
+You retain ownership of any content you upload to Assetick. By uploading content, you grant us a worldwide, royalty-free, and non-exclusive license to use, reproduce, and display your content for the purpose of operating and improving the service.
 
 ### Our Content
 
-All content provided by AssetPulse, including text, graphics, logos, and software, is the property of AssetPulse or its licensors and is protected by intellectual property laws. You may not use, reproduce, or distribute any of our content without our prior written permission.
+All content provided by Assetick, including text, graphics, logos, and software, is the property of Assetick or its licensors and is protected by intellectual property laws. You may not use, reproduce, or distribute any of our content without our prior written permission.
 
 ## Payment and Billing
 
 ### Subscription Fees
 
-Certain features of AssetPulse may require a subscription. You agree to pay all applicable fees as described on our pricing page. Fees are non-refundable except as required by law.
+Certain features of Assetick may require a subscription. You agree to pay all applicable fees as described on our pricing page. Fees are non-refundable except as required by law.
 
 ### Billing Information
 
@@ -59,32 +59,32 @@ You must provide accurate and up-to-date billing information. You authorize us t
 
 ## Termination
 
-We may terminate or suspend your account and access to AssetPulse at any time, without prior notice, for conduct that we believe violates these terms or is harmful to other users of the service.
+We may terminate or suspend your account and access to Assetick at any time, without prior notice, for conduct that we believe violates these terms or is harmful to other users of the service.
 
 ## Disclaimer of Warranties
 
-AssetPulse is provided "as is" and "as available" without warranties of any kind, either express or implied. We do not warrant that the service will be uninterrupted or error-free.
+Assetick is provided "as is" and "as available" without warranties of any kind, either express or implied. We do not warrant that the service will be uninterrupted or error-free.
 
 ## Limitation of Liability
 
-To the maximum extent permitted by law, AssetPulse shall not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with your use of the service.
+To the maximum extent permitted by law, Assetick shall not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with your use of the service.
 
 ## Governing Law
 
-These terms are governed by and construed in accordance with the laws of the jurisdiction in which AssetPulse operates, without regard to its conflict of law principles.
+These terms are governed by and construed in accordance with the laws of the jurisdiction in which Assetick operates, without regard to its conflict of law principles.
 
 ## Contact Information
 
 If you have any questions about these Terms of Service, please contact us at:
 
-Email: support@AssetPulse.com
-Address: 123 AssetPulse Lane, Productivity City, PC 12345
+Email: support@Assetick.com
+Address: 123 Assetick Lane, Productivity City, PC 12345
 
 ## Miscellaneous
 
 ### Entire Agreement
 
-These terms constitute the entire agreement between you and AssetPulse regarding the use of the service and supersede any prior agreements.
+These terms constitute the entire agreement between you and Assetick regarding the use of the service and supersede any prior agreements.
 
 ### Severability
 

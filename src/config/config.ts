@@ -21,13 +21,13 @@ export interface Config {
 }
 
 export const configData: Config = {
-	siteTitle: 'AssetPulse. Tailwind CSS Astro Starter Kit by Oxygenna',
+	siteTitle: 'Assetick. Tailwind CSS Astro Starter Kit by Oxygenna',
 	siteDescription:
-		'AssetPulse is a design and development agency that specializes in creating beautiful and functional websites.',
+		'Assetick is a design and development agency that specializes in creating beautiful and functional websites.',
 	ogImage: '/og.jpg',
 	logo: {
 		src: '/favicon-32x32-reverse.png', //'/logo.svg',
-		alt: 'AssetPulse. logo'
+		alt: 'Assetick. logo'
 	},
 	canonical: true,
 	noindex: false,

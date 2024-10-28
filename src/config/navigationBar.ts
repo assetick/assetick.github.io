@@ -33,9 +33,9 @@ export interface NavData {
 
 export const navigationBarData: NavData = {
 	logo: {
-		src: '/favicon-32x32-reverse.png', //'/logo.svg',
-		alt: 'The tailwind astro theme',
-		text: 'AssetPulse.'
+		src: '/assetick.png', //'/logo.svg',
+		alt: 'Tick every asset health checkbox',
+		text: ''//'Assetick.'
 	},
 	navItems: [
 		{ name: 'Home', link: '/' },

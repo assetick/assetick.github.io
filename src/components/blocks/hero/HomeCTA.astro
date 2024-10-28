@@ -16,11 +16,12 @@ import AvatarGroup from '../../ui/AvatarGroup.astro'
 
 // Content
 // - Hero Image
-import heroImage from '../../../assets/hero-01.png'
+import heroImage from '../../../assets/hero-02.png'
 // - Avatars
 import user1 from '../../../assets/avatars/avatar-01.webp'
 import user2 from '../../../assets/avatars/avatar-02.webp'
 import user3 from '../../../assets/avatars/avatar-03.webp'
+import { Icon } from 'astro-icon/components'
 const avatars = [
 	{ image: { src: user1.src, alt: 'user name' }, link: '/' },
 	{ image: { src: user2.src, alt: 'user name' }, link: '/' },
@@ -30,40 +31,49 @@ const avatars = [
 
 <Section id="intro" padding="top" classes="bg-neutral-50 dark:bg-neutral-900">
 	<Row>
-		<Col span="2" />
-		<Col span="8" align="center">
+		<Col span="1" />
+		<Col span="10">
 			<!-- <ChipNotification radius="rounded-full" classes="mb-6">
 				<strong>30K+</strong> satisfied customers
 				<AvatarGroup avatars={avatars} radius="rounded-full" slot="button" />
 			</ChipNotification> -->
 			<h1>
-				<strong>Asset health insights</strong>
-				<br />
-				to reduce downtime and optimize productivity
+				<strong>Maximize</strong> asset value<br />
+				<strong>Reduce</strong> downtime <span class="hidden md:inline-block">&amp; costs</span>
+				<br>
+				<strong>Optimize</strong> performance
 			</h1>
 
-			<p class="pb-0 text-lg">
-				Cloud-based telemetry and analytics platform that aggregates critical data from assets,
-				putting deep insights at asset operator's fingertips to predict &amp; resolve asset issues
-				proactively.
+			<h2 class="mb-12 lg:mb-6">Cloud-based <a>CMMS</a>, <a>APM</a> and <a>Analytics</a> platform</h2>
+
+			<p class="text-lg">
+				Single integrated platform with support for telemetry and analytics that aggregates critical
+				data from assets, putting deep insights at asset operator's fingertips to predict &amp;
+				resolve asset issues proactively.
 			</p>
-			<Button size="lg" link="/">Get started for free</Button>
-			<Button
-				size="lg"
-				link="https://calendly.com/adhamankar/assetpulse-product-offering"
-				classes="ms-2">Book a demo</Button
-			>
-		</Col>
-		<Col span="2" />
-		<Col span="2" />
-		<Col span="8">
+
+			<p>
+				<Button size="lg" link="/pricing">Get started for free</Button>
+				<Button
+					size="lg"
+					classes="ms-2"
+					link="https://calendly.com/adhamankar/assetpulse-product-offering"
+				>
+					Book a demo
+				</Button>
+			</p>
 			<Image
 				src={heroImage}
-				alt="AssetPulse. Predict and resolve asset performance issues"
-				class="translate-y-8 shadow-2xl shadow-neutral-200 dark:shadow-neutral-950"
+				alt="Assetick. Predict and resolve asset performance issues"
+				class="translate-y-8 rounded-3xl shadow-2xl shadow-neutral-400 dark:shadow-neutral-950"
 				format="webp"
 			/></Col
 		>
 		<Col span="2" />
 	</Row>
 </Section>
+<style>
+	.card__icon {
+		@apply inline-block size-6 font-bold text-pink-700;
+	}
+</style>

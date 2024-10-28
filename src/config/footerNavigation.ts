@@ -35,13 +35,13 @@ export interface FooterData {
 
 export const footerNavigationData: FooterData = {
 	footerAbout: {
-		title: 'AssetPulse.',
+		title: 'Assetick.',
 		aboutText:
 			'Ready to start your asset reliability journey, gain insights and make informed decisions to achieve high performance?',
 		logo: {
 			src: '/logo.svg',
-			alt: 'AssetPulse logo',
-			text: 'AssetPulse.'
+			alt: 'Assetick logo',
+			text: 'Assetick.'
 		}
 	},
 	footerColumns: [
@@ -106,6 +106,6 @@ export const footerNavigationData: FooterData = {
 		}
 	],
 	subFooter: {
-		copywriteText: '© AssetPulse 2024.'
+		copywriteText: '© Assetick 2024.'
 	}
 }

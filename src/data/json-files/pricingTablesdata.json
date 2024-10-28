@@ -21,7 +21,7 @@
 		},
 		"footer": {
 			"buttonName": "See all features",
-			"buttonLink": "/"
+			"buttonLink": "/features"
 		},
 		"type": "basic"
 	},
@@ -48,7 +48,7 @@
 		},
 		"footer": {
 			"buttonName": "See all features",
-			"buttonLink": "/"
+			"buttonLink": "/features"
 		},
 		"type": "featured"
 	},
@@ -76,7 +76,7 @@
 		},
 		"footer": {
 			"buttonName": "See all features",
-			"buttonLink": "/"
+			"buttonLink": "/features"
 		},
 		"type": "basic"
 	}
