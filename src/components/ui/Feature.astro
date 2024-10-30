@@ -19,12 +19,13 @@ import { Icon } from 'astro-icon/components'
 type Props = {
 	type?: 'top-icon' | 'side-icon'
 	title?: string
+	code?: string
 	icon?: string
 	iconStyle?: 'normal' | 'square'
 	align?: 'left' | 'center'
 	classes?: string
 }
-const { type = 'top-icon', title, icon = 'rocket', iconStyle, align, classes } = Astro.props
+const { type = 'top-icon', title, code, icon = 'rocket', iconStyle, align, classes } = Astro.props
 ---
 
 <div
@@ -51,6 +52,7 @@ const { type = 'top-icon', title, icon = 'rocket', iconStyle, align, classes } =
 						'feature__title',
 						{ [`mb-2 py-2`]: iconStyle === 'square' && type === 'side-icon' }
 					]}
+					
 				>
 					{title}
 				</h3>

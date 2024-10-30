@@ -16,7 +16,7 @@
 				{ "listItem": "Manage upto 50 assets" },
 				{ "listItem": "Manage upto 2 meters per asset" },
 				{ "listItem": "Automate upto 3 maintenance plans" },
-				{ "listItem": "Create 1 scorecard" }
+				{ "listItem": "Create 1 performance scorecard" }
 			]
 		},
 		"footer": {
@@ -42,7 +42,7 @@
 				{ "listItem": "Manage upto 500 assets" },
 				{ "listItem": "Manage upto 10 meters per asset" },
 				{ "listItem": "Automate upto 100 maintenance plans" },
-				{ "listItem": "Manage upto 10 scorecards" },
+				{ "listItem": "Manage upto 10 performance scorecards" },
 				{ "listItem": "Manage investment plans" }
 			]
 		},
@@ -71,7 +71,8 @@
 				{ "listItem": "Automate maintenance planing across all assets" },
 				{ "listItem": "Manage scorecards for all asset types" },
 				{ "listItem": "Manage investment plans" },
-				{ "listItem": "Customization support for asset related data ingestion" }
+				{ "listItem": "Customization support for asset related data ingestion" },
+				{ "listItem": "Support for single sign on (SSO)" }
 			]
 		},
 		"footer": {

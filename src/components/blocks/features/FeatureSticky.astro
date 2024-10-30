@@ -19,16 +19,23 @@ type FeatureData = {
 }
 type Props = {
 	title: string
+	code?: string
 	text?: string
 	data: FeatureData[]
 	classes?: string
 }
-const { title, text, data, classes } = Astro.props
+const { title, code, text, data, classes } = Astro.props
 ---
 
 <StickySidebar classes={classes}>
 	<header slot="sidebar">
-		{title && <h3 class="text-3xl">{title}</h3>}
+		{
+			title && (
+				<h3 class="text-3xl" id={code ? code : ''}>
+					{title}
+				</h3>
+			)
+		}
 		{text && <p class="text-lg leading-relaxed">{text}</p>}
 	</header>
 

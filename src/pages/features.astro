@@ -8,14 +8,7 @@ import Hero from '../components/blocks/hero/PageHeader.astro'
 import CTA from '../components/blocks/CTA/BasicDark.astro'
 
 // Data
-import featuresData from '../data/json-files/featuresData.json'
-// - Feature Categories
-const featuresAnalytics = featuresData.filter((feature) => feature.category === 'Analytics')
-const featuresProductivity = featuresData.filter((feature) => feature.category === 'Productivity')
-const featuresSecurity = featuresData.filter((feature) => feature.category === 'Security')
-const featuresIntegrations = featuresData.filter((feature) => feature.category === 'Integrations')
-const featuresSupport = featuresData.filter((feature) => feature.category === 'Support')
-
+import features from '../data/json-files/featuresData.json'
 // Content
 // - SEO
 const SEO = {
@@ -25,39 +18,24 @@ const SEO = {
 }
 // - Page Header
 const header = {
-	title: 'Why you and your team will <strong>love</strong> Assetick.',
-	text: 'Streamline your tasks, protect your data, and enjoy working with our tools!'
+	title: 'Why you and your team will <strong>love Assetick</strong>.',
+	text: 'Maximize asset value. Reduce downtime & costs. Optimize performance'
 }
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
 	<Hero title={header.title} text={header.text} />
-	<Feature
-		title="Insightful Analytics"
-		text="Delve into your data with precision and uncover actionable insights."
-		data={featuresAnalytics}
-	/>
-	<Feature
-		title="Efficiency Unleashed"
-		text="Streamline tasks and focus on what matters with tools designed to boost your productivity."
-		data={featuresSecurity}
-		classes="bg-neutral-50 dark:bg-neutral-900"
-	/>
-	<Feature
-		title="Ultimate Data Protection"
-		text="Keep your data safe with top-notch security measures and real-time threat detection."
-		data={featuresProductivity}
-	/>
-	<Feature
-		title="Seamless Connectivity"
-		text="Effortlessly connect your favorite apps and automate workflows for a smoother workday."
-		data={featuresIntegrations}
-		classes="bg-neutral-50 dark:bg-neutral-900"
-	/>
-	<Feature
-		title="Expert Help"
-		text="Our friendly support team is always here to assist you with any questions or issues."
-		data={featuresSupport}
-	/>
+	{
+		features.map((feature: any) => (
+			<Feature
+				title={feature.title}
+				code={feature.code}
+				text={feature.text}
+				data={feature.data}
+				classes={feature.classes}
+			/>
+		))
+	}
+
 	<CTA />
 </Layout>

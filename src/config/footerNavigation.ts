@@ -39,9 +39,9 @@ export const footerNavigationData: FooterData = {
 		aboutText:
 			'Ready to start your asset reliability journey, gain insights and make informed decisions to achieve high performance?',
 		logo: {
-			src: '/logo.svg',
+			src: '/assetick.png',
 			alt: 'Assetick logo',
-			text: 'Assetick.'
+			text: ''
 		}
 	},
 	footerColumns: [
@@ -60,10 +60,10 @@ export const footerNavigationData: FooterData = {
 					subCategory: 'Pricing',
 					subCategoryLink: '/pricing'
 				},
-				{
-					subCategory: 'Changelog',
-					subCategoryLink: '/changelog'
-				},
+				// {
+				// 	subCategory: 'Changelog',
+				// 	subCategoryLink: '/changelog'
+				// },
 				{
 					subCategory: 'Terms',
 					subCategoryLink: '/terms'

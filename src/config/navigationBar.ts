@@ -23,6 +23,7 @@ export interface NavAction {
 	link: string
 	style: string
 	size: string
+	target?: string
 }
 
 export interface NavData {
@@ -53,5 +54,5 @@ export const navigationBarData: NavData = {
 		},
 		{ name: 'Contact', link: '/contact' }
 	],
-	navActions: [{ name: 'Try it now', link: '/', style: 'primary', size: 'lg' }]
+	navActions: [{ name: 'Try it now', target:'_self', link: '/pricing', style: 'primary', size: 'lg' }]
 }
