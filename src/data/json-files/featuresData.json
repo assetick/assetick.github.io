@@ -2,7 +2,8 @@
 	{
 		"title": "Computerised Maintenance Management",
 		"code": "cmms",
-		"text": "Plan, monitor, & report maintenance tasks, track work orders & schedule maintenance..",
+		"icon": "clipboard-document-list",
+		"description": "Plan, monitor, & report maintenance tasks, track work orders & schedule maintenance..",
 		"data": [
 			{
 				"title": "Asset management",
@@ -45,7 +46,8 @@
 	{
 		"title": "Asset performance management",
 		"code": "apm",
-		"text": "Streamline tasks and focus on what matters with tools designed to boost your productivity.",
+		"icon": "arrow-treding-up",
+		"description": "Streamline tasks and focus on what matters with tools designed to boost your productivity.",
 		"classes": "bg-neutral-50 dark:bg-neutral-900",
 		"data": [
 			{
@@ -83,7 +85,8 @@
 	{
 		"title": "Expert Help",
 		"code": "help",
-		"text": "Our friendly support team is always here to assist you with any questions or issues.",
+		"icon": "user",
+		"description": "Our friendly support team is always here to assist you with any questions or issues.",
 		"data": [
 			{
 				"title": "Dedicated Customer Support",
