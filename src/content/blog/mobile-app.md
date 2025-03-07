@@ -2,7 +2,7 @@
 title: 'Assetick Mobile App Launch'
 pubDate: 2024-04-05T05:00:00Z
 description: 'We have rolled out new security updates to keep your data safe and secure. Learn more about our latest security enhancements and how they protect you.'
-author: 'Eleni K'
+author: 'engagement manager'
 image: '/blog/post-02-cover.png'
 tags: ['app', 'announcement']
 ---

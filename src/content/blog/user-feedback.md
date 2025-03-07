@@ -1,9 +1,9 @@
 ---
 title: 'User feedback on Assetick'
-pubDate: 2024-05-05T05:00:00Z
 description: "Your feedback is crucial to us. We are constantly striving to improve Assetick based on your suggestions. Here are some of the latest improvements.
 "
-author: 'Eleni K'
+# pubDate: 2024-05-05T05:00:00Z
+# author: 'engagement manager'
 image: '/blog/post-04-cover.png'
 tags: ['productivity', 'app']
 ---

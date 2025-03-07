@@ -2,7 +2,7 @@
 title: 'Enhancing Team Collaboration'
 pubDate: 2024-06-04T05:00:00Z
 description: 'At Assetick, we believe that effective team collaboration is key to achieving great results. Our latest update introduces new features designed to enhance how your team works together.'
-author: 'Eleni K'
+author: 'engagement manager'
 image: '/blog/post-05-cover.png'
 tags: ['app', 'announcement']
 ---

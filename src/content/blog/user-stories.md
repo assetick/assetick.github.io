@@ -2,7 +2,7 @@
 title: 'Celebrating User Success Stories'
 pubDate: 2024-06-04T05:00:00Z
 description: 'These stories inspire us to keep innovating and improving Assetick. We are proud of what our users have achieved and are committed to helping more people reach their full potential.'
-author: 'Eleni K'
+author: 'engagement manager'
 image: '/blog/post-06-cover.png'
 tags: ['reviews', 'announcement']
 ---
