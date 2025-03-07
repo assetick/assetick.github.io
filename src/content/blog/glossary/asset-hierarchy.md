@@ -3,7 +3,7 @@ title: 'Asset hierarchy'
 pubDate: 2024-04-04T05:00:00Z
 description: "An asset hierarchy represents a systematic way to structure an organization’s asset information. It lists all physical assets, categorizes them, and groups them logically. Most asset hierarchies create a top-down structure using a parent-child relationship."
 author: 'Content manager'
-tags: ['cmms']
+tags: ['cmms', 'glossary']
 ---
 
 An asset hierarchy represents a systematic way to structure an organization’s asset information. It lists all physical assets, categorizes them, and groups them logically. Most asset hierarchies create a top-down structure using a parent-child relationship.
